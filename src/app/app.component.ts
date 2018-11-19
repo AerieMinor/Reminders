@@ -6,9 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'call-mom';
-  call = 'Call Mom'
-  remind = 'Remind me on a day and time'
-  status = 'High'
-  message = 'Call Mom to wish her a happy birthday'
+  title = 'My First Angular App';
+  call = 'Call Dad'
+  buy = 'Get Ice Cream'
+  activity = 'Dance like you don\'\ t care'
 }
