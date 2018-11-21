@@ -1,0 +1,11 @@
+<div *ngIf="Reminder">
+
+    <h2>{{Reminder.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{Reminder.id}}</div>
+    <div>
+        <label>name:
+      <input [(ngModel)]="Reminder.name" placeholder="name"/>
+    </label>
+    </div>
+
+</div>
